@@ -1,0 +1,141 @@
+/* ALL : NAVIGAITON */
+.log-in-bar {
+    background-color:#2d2d30;
+    margin-bottom:20px;
+    opacity: 0.9;
+}
+
+/* HOME : CAROUSEL */
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+.carousel img {
+    min-width: 100%;
+    height: auto;
+    max-width: none;
+}
+
+/* ALL : FOOTER */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 100px; /* bottom = footer height */
+}
+footer {
+    padding:10px;
+    color: #989898;
+/*    height: 100px;*/
+    background-color:#2d2d30;
+    opacity: 0.9;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* ALL : MODAL */
+.modal-dialog {
+    width: 400px;
+}
+
+/* ALL : BODY */
+.panel-body {
+    background-color: #E7E7E7;
+}
+.table th, .table td { 
+    border-top: none !important;
+    border-left: none !important;
+}
+.col-fix-240 {
+    width:240px;
+}
+.col-fix-140 {
+    width:160px;
+}
+.col-fix-100 {
+    width:100px;
+}
+.opis td{
+    padding-left:10px;
+    padding-bottom:2px;
+}
+
+/* HOME : Promo */
+.promonaslov{
+    text-decoration: none;
+    color: white;
+}
+
+.promonaslov:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.promonaslov:visited{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* HOME : Poslednjih N filmova dodati u bazu */
+.novinaslov{
+    text-decoration: none;
+    color: black;
+}
+
+.novinaslov:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.novinaslov:visited{
+    text-decoration: none;
+    color: black;
+}
+
+/* REPERTOAR : stars*/
+.positiv-rate {
+    color: gold;
+}
+.negative-rate {
+    color: gray;
+}
+
+/* FILM : OCENA */
+.ocena button {
+    border: 0;
+    background: none;
+    padding: 2px;
+}
+.ocena {
+    font-size: 1.5em; /*21px;*/
+}
+
+/* MESTA : rezervacija pri klikom na sediste */
+.neaktivno_sediste{
+    border: 0;
+    background: none;
+    padding: 2px;
+    font-size: 1em;
+    color: #989898;
+}
+
+.aktivno_sediste{
+    border: 0;
+    background: none;
+    padding: 2px;
+    font-size: 1em;
+    color: #006699;
+}
+
+.rezervisano_sediste{
+    border: 0;
+    background: none;
+    padding: 2px;
+    font-size: 1em;
+    color: #761c19;
+}
