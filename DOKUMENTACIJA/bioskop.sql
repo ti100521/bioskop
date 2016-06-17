@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 17, 2016 at 07:17 PM
+-- Generation Time: Jun 17, 2016 at 07:46 PM
 -- Server version: 5.7.9
 -- PHP Version: 5.6.16
 
@@ -140,7 +140,7 @@ CREATE TABLE IF NOT EXISTS `korisnik` (
 
 INSERT INTO `korisnik` (`IDKorisnik`, `Username`, `Password`, `Email`, `Slika`, `SlikaIme`, `ZeliObavestenja`) VALUES
 (14, 'lazar', 'igor', 'igor.trajanovic@gmail.com', 'http://localhost/bioskop/resource/user/lazar.jpg', '094.jpg', 0),
-(19, 'Elsa', 'igor', 'igor.tesla333@gmail.com', 'http://localhost/bioskop/resource/user/Elsa.jpg', '1118full-elsa-hosk.jpg', 1),
+(19, 'Elsa', 'igor', 'igor.tesla333@gmail.com', 'http://localhost/bioskop/resource/user/Elsa.jpg', 'Elsa.jpg', 1),
 (13, 'igor', 'igor', 'igor.trajanovic@gmail.com', 'http://localhost/bioskop/resource/user/igor.jpg', 'the_archer_by_sktchwlkr-d65d3ai.jpg', 0);
 
 -- --------------------------------------------------------
