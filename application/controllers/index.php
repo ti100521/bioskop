@@ -30,7 +30,6 @@ class Index extends CI_Controller {
         $data['list'] = $this->film_model->getLatest();
         $data['main_content'] = 'page/home.php';
         $this->load->view('include/template', $data);
-        $this->ind
     }
     
     function repertoar(){
