@@ -1,9 +1,5 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-//define ("PHPDOC_INCLUDE_DIR", "C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/PHPDoc/");
-//define ("LINEBREAK", "\r\n");
-//include("PHPDoc/prepend.php");
-
 /**
  * @author Igor Trajanovic
  * @copyright (c) 2016, Igor Trajanovic
@@ -13,7 +9,10 @@ class Index extends CI_Controller {
     function __construct() {
         parent::__construct();
     }
-    
+
+    /**
+     * @link http://localhost/bioskop/index.php/index/
+     */
     function index(){
         if($this->session->userdata('admin')){
             $data['main_content'] = 'page_admin/db.php';
@@ -26,6 +25,9 @@ class Index extends CI_Controller {
         }
     }
     
+    /**
+     * @link http://localhost/bioskop/index.php/home/
+     */
     function home(){
         $this->load->model('film_model');
         $data['list'] = $this->film_model->getLatest();
@@ -33,6 +35,9 @@ class Index extends CI_Controller {
         $this->load->view('include/template', $data);
     }
     
+    /**
+     * @link http://localhost/bioskop/index.php/repertoar/
+     */
     function repertoar(){
         $this->load->model('projection_model');
         $data['list'] = $this->projection_model->getRepertoars();
@@ -64,7 +69,11 @@ class Index extends CI_Controller {
         $this->load->view('include/template', $data);
         
     }
-        
+    
+    /**
+     * 
+     * @param int $idPro identifikacija projekcije
+     */
     function mesta($idPro){
         $this->load->model('projection_model');
         $this->load->model('reservation_model');
@@ -75,6 +84,10 @@ class Index extends CI_Controller {
         $this->load->view('include/template', $data);
     }
     
+    /**
+     * 
+     * @param int $idPro identifikacija projekcije
+     */
     function rezervisi($idPro){
         $this->load->model('reservation_model');
         $idRez = $this->reservation_model->newReservedMesta($idPro);
@@ -223,12 +236,21 @@ class Index extends CI_Controller {
         echo $newcomment;
     }
     
+    /**
+     * @return String obavestenja da li je uspesno obavljeno brisanje
+     * @param int $idFilm
+     * @param int $idKom
+     */
     function ajaxDeleteComment($idFilm, $idKom){
         $this->load->model('film_model');
         $this->film_model->ajaxDeleteComment($idKom);
         echo "uspesno obrisano";
     }
     
+    /**
+     * 
+     * @param int $idFilm
+     */
     function ajaxRate($idFilm){
         $this->load->model('film_model');
         $ukupno_ocena = $this->film_model->ajaxRate($idFilm);
