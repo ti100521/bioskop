@@ -25,19 +25,14 @@ class Index extends CI_Controller {
         }
     }
     
-    /**
-     * @link http://localhost/bioskop/index.php/home/
-     */
     function home(){
         $this->load->model('film_model');
         $data['list'] = $this->film_model->getLatest();
         $data['main_content'] = 'page/home.php';
         $this->load->view('include/template', $data);
+        $this->ind
     }
     
-    /**
-     * @link http://localhost/bioskop/index.php/repertoar/
-     */
     function repertoar(){
         $this->load->model('projection_model');
         $data['list'] = $this->projection_model->getRepertoars();
