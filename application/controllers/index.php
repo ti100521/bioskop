@@ -1,5 +1,13 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+//define ("PHPDOC_INCLUDE_DIR", "C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/PHPDoc/");
+//define ("LINEBREAK", "\r\n");
+//include("PHPDoc/prepend.php");
+
+/**
+ * @author Igor Trajanovic
+ * @copyright (c) 2016, Igor Trajanovic
+ */
 
 class Index extends CI_Controller {
     function __construct() {
