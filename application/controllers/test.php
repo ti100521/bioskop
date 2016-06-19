@@ -14,6 +14,12 @@ class Test extends CI_Controller {
         $this->unit->run(sum(4,3), 7, "testiranje sum-a");
         $this->load->view('test_view');
     }
+    
+    public function test1(){
+//        $this->unit->set_test_items(array('test_name', 'test_datatype', 'result'));
+        $this->unit->run(sum(4,3), 7, "testiranje sum-a");
+        $this->load->view('test_view');
+    }
 }
 
 ?>
