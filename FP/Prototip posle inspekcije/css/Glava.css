@@ -1,0 +1,118 @@
+html, body{
+	height: 100%;
+}
+
+body {
+	background-color: #f1f1f1;
+	background-size: cover;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	position: relative;
+}
+#Omotac {
+	height:100%;
+	width: 1000px;
+	margin: auto;
+	padding-bottom: 150px;
+	/*background-color: #dddddd;*/
+}
+
+/* ZAGLAVLJE */
+
+#Zaglavlje {
+	width: 1000px;
+	background-image: url('../slike/zaglavlje.png');
+	background-repeat: no-repeat;
+	height: 106px;
+	color: #A00F00;
+	text-align: left;
+	position: relative;
+	z-index: 5;
+}
+
+/* LOGO */
+
+#Logo {
+	padding-left: 50px;
+	padding-top: 10px;
+}
+
+/* NAVIGACIONI BLOK */
+
+#NavigacioniBlok{
+	width: 1000px;
+	height: 30px;
+	margin: auto;
+	bottom: 10px;
+	position: absolute;
+	text-align: center;
+	padding-left: 172px;
+}
+
+#NavigacioniBlok ul {
+	font-family: Baskerville Old Face;
+	font-size: 20px;
+	list-style: none;
+	display: inline;
+}
+
+#NavigacioniBlok ul li{
+	display: block;
+    position: relative;
+	padding-right: 25px;
+    float: left;
+	color: #ff0000;
+}
+
+#NavigacioniBlok ul li a{
+	display: block;
+	color: #ecd2d2;
+	text-decoration: none;
+}
+
+#NavigacioniBlok ul li a:hover {
+    color: #ff0000;
+}
+
+#NavigacioniBlok li:hover ul {
+    display: block;
+    position: absolute;
+}
+
+/* GlavniBlok */
+
+#GlavniBlok{
+	margin-top: -10px;
+	padding: 0px;
+	width: 998px;
+	position: relative;
+	background-color: white;
+}
+
+/* PAPIR */
+
+#Papir{
+	width: 990px;
+	margin: auto;
+	background-color: #ffffff;
+	color: black;
+	border: 1px solid black;
+}
+
+/* END */
+#end{
+	height: 20px;
+}
+
+#end p{
+	font: italic 12px arial;
+	text-align: center;
+	margin: auto;
+	/* color: #A00F00; */
+	color: gray;
+	width: 1000px;
+	position: absolute;
+	bottom: 0;
+}

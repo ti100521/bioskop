@@ -1,0 +1,54 @@
+.Sadrzaj {
+	padding: 20px 10px 50px 10px;
+}
+
+.Vesti {
+	float: right;
+	width: 300px;
+	height: auto;
+	background-color: #ffffff;
+	/*border: 1px solid #000000;*/
+}
+
+.Vesti hr {
+	width: 250px;
+}
+
+.Vesti .obavestenje {
+	text-indent: 10px;
+	font-size: 16px;
+	color: #ff0000;
+	padding: 8px;
+}
+
+.Vesti .obavestenje:before{
+	content: "-"
+}
+
+.Vesti .vest {
+	text-indent: 10px;
+	font-size: 16px;
+	padding: 8px;
+}
+
+.Vesti .vest:before{
+	content: "-"
+}
+
+.Ostalo {
+	width: 650px;
+}
+
+.Ostalo a{
+	text-decoration: none;
+	
+}
+
+.ppp {
+	/* border: 1px solid #000000; */
+	padding: 5px;
+}
+
+.ppp a{
+	color: red;
+}

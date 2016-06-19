@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+<!-- author: Igor Trajanovic 0521/10 -->
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+	<meta name="author" content ="Igor Trajanovic">
+	<link rel="stylesheet" type="text/css" href="css/Glava.css" />
+	<link rel="stylesheet" type="text/css" href="css/Film.css" />
+	<title>Bioskop BLA</title>
+</head>
+<body>
+	<div id="Omotac">
+		<div id="Zaglavlje">
+			<div id="Logo">
+				<img src="slike/logo.png"></img>
+			</div>
+			
+			<div id="NavigacioniBlok">
+				<ul>
+					<li><a href="index.html">Naslovna</a></li>
+					<li><a href="repertoar.html">Repertoar</a></li>
+					<li><a href="login.html">Log in</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="GlavniBlok">
+			<div id="Papir" >
+				<div class="Sadrzaj" style="padding:30px">
+					<div class="film_row">
+						<h3>Film Naslov</h3>
+					</div>
+					<br/>
+					
+					<table cellspacing="100">
+						<tr>
+							<td>
+								<div class="film_row_reklama">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/cipOTUO0CmU" frameborder="0" allowfullscreen></iframe>
+								</div>
+							</td>
+							<td width="100%">
+								<div class="film_row_reklama_det" >
+									<table width="100%" height="100%">
+										<tr>
+											<td>
+												<i>Originalni naslov:</i>
+											</td>
+											<td>
+												Movie title
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<i>Pocetak prikazivanja:</i>
+											</td>
+											<td>
+												25.10.2016
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<i>Duzina trajanja:</i>
+											</td>
+											<td>
+												123 min
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<i>Zanr:</i>
+											</td>
+											<td>
+												Akcija
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<i>Drzava:</i>
+											</td>
+											<td>
+												USA
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<i>Reziser:</i>
+											</td>
+											<td>
+												Igor Trajanovic
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<i>Glumci:</i>
+											</td>
+											<td>
+												Igor1, igor2, Igor3
+											</td>
+										</tr>
+									</table>
+								</div>
+							</td>
+						</tr>
+					</table>
+					
+					<br/>
+					
+					<div class="film_row" >
+						<div align="center">
+							<h3>Ostavi komantar</h3>
+							<textarea maxlength="200" style="width:60%; resize:none;">Pisi..</textarea>
+							<br/>
+							<button type="button">Post</button>
+						</div>
+						<div class="komentar">
+							<button style="float:right">X</button>
+							<h4>korisnik, datum</h4>
+							<p>Ovaj film je odlican bla.....</p>
+						</div>
+						<div class="komentar">
+							<button style="float:right;">X</button>
+							<h4>korisnik2, datum2</h4>
+							<p>Ovaj film je super bla......</p>
+						</div>
+					</div>
+					
+					<br/>
+					
+					<div class="film_row" align="center" style="padding: 10px;">
+						<form name="RezervacijaForma" action="mailto:p.t@gmail.com" method="post" enctype="text/plain">
+							<input type="text" name="username" value="Username"  />
+							<input type="password" name="password" value="Password"  />
+							<input type="submit" name="submit" value="Login"  />
+						</form>
+					</div>
+					
+					<br/>
+					
+					<div class="film_row" >
+						<h3 align="center" >Projekcije:</h3>
+						<hr style="width:60%;"/>
+						<br/>
+						<table align="center" width="60%" height="100%">
+							<th>
+								<td>12:00</td>
+								<td>15:00</td>
+								<td>17:00</td>
+								<td>19:00</td>
+								<td>21:00</td>
+							</th>
+							<tr>
+								<td>Ponedeljak</td>
+								<td><a href="rezervacija.html" ><img src="slike/ticket.png" style="width:25px; height:25px;"></img></a></td>
+								<td><a href="rezervacija.html" ><img src="slike/ticket.png" style="width:25px; height:25px;"></img></a></td>
+								<td><a href="rezervacija.html" ><img src="slike/ticket.png" style="width:25px; height:25px;"></img></a></td>
+								<td><a href="rezervacija.html" ><img src="slike/ticket.png" style="width:25px; height:25px;"></img></a></td>
+								<td><a href="rezervacija.html" ><img src="slike/ticket.png" style="width:25px; height:25px;"></img></a></td>
+							</tr>
+							<tr>
+								<td>Utorak</td>
+								<td><a href="rezervacija.html" ><img src="slike/ticket.png" style="width:25px; height:25px;"></img></a></td>
+								<td><a href="rezervacija.html" ><img src="slike/ticket.png" style="width:25px; height:25px;"></img></a></td>
+								<td><a href="rezervacija.html" ><img src="slike/ticket.png" style="width:25px; height:25px;"></img></a></td>
+								<td><a href="rezervacija.html" ><img src="slike/ticket.png" style="width:25px; height:25px;"></img></a></td>
+								<td><a href="rezervacija.html" ><img src="slike/ticket.png" style="width:25px; height:25px;"></img></a></td>
+							</tr>
+							<tr>
+								<td>Sreda</td>
+								<td><a href="rezervacija.html" ><img src="slike/ticket.png" style="width:25px; height:25px;"></img></a></td>
+								<td><a href="rezervacija.html" ><img src="slike/ticket.png" style="width:25px; height:25px;"></img></a></td>
+								<td><a href="rezervacija.html" ><img src="slike/ticket.png" style="width:25px; height:25px;"></img></a></td>
+								<td><a href="rezervacija.html" ><img src="slike/ticket.png" style="width:25px; height:25px;"></img></a></td>
+								<td><a href="rezervacija.html" ><img src="slike/ticket.png" style="width:25px; height:25px;"></img></a></td>
+							</tr>
+							<tr>
+								<td>Cetvrtak</td>
+								<td><a href="rezervacija.html" ><img src="slike/ticket.png" style="width:25px; height:25px;"></img></a></td>
+								<td><a href="rezervacija.html" ><img src="slike/ticket.png" style="width:25px; height:25px;"></img></a></td>
+								<td><a href="rezervacija.html" ><img src="slike/ticket.png" style="width:25px; height:25px;"></img></a></td>
+								<td><a href="rezervacija.html" ><img src="slike/ticket.png" style="width:25px; height:25px;"></img></a></td>
+								<td><a href="rezervacija.html" ><img src="slike/ticket.png" style="width:25px; height:25px;"></img></a></td>
+							</tr>
+							<tr>
+								<td>Petak</td>
+								<td><a href="rezervacija.html" ><img src="slike/ticket.png" style="width:25px; height:25px;"></img></a></td>
+								<td><a href="rezervacija.html" ><img src="slike/ticket.png" style="width:25px; height:25px;"></img></a></td>
+								<td><a href="rezervacija.html" ><img src="slike/ticket.png" style="width:25px; height:25px;"></img></a></td>
+								<td><a href="rezervacija.html" ><img src="slike/ticket.png" style="width:25px; height:25px;"></img></a></td>
+								<td><a href="rezervacija.html" ><img src="slike/ticket.png" style="width:25px; height:25px;"></img></a></td>
+							</tr>
+							<tr>
+								<td>Subota</td>
+								<td><a href="rezervacija.html" ><img src="slike/ticket.png" style="width:25px; height:25px;"></img></a></td>
+								<td><a href="rezervacija.html" ><img src="slike/ticket.png" style="width:25px; height:25px;"></img></a></td>
+								<td><a href="rezervacija.html" ><img src="slike/ticket.png" style="width:25px; height:25px;"></img></a></td>
+								<td><a href="rezervacija.html" ><img src="slike/ticket.png" style="width:25px; height:25px;"></img></a></td>
+								<td><a href="rezervacija.html" ><img src="slike/ticket.png" style="width:25px; height:25px;"></img></a></td>
+							</tr>
+							<tr>
+								<td>Nedelja</td>
+								<td><a href="rezervacija.html" ><img src="slike/ticket.png" style="width:25px; height:25px;"></img></a></td>
+								<td><a href="rezervacija.html" ><img src="slike/ticket.png" style="width:25px; height:25px;"></img></a></td>
+								<td><a href="rezervacija.html" ><img src="slike/ticket.png" style="width:25px; height:25px;"></img></a></td>
+								<td><a href="rezervacija.html" ><img src="slike/ticket.png" style="width:25px; height:25px;"></img></a></td>
+								<td><a href="rezervacija.html" ><img src="slike/ticket.png" style="width:25px; height:25px;"></img></a></td>
+							</tr>
+							
+							
+						</table>
+					</div>
+				</div>
+			</div>
+			<div id="end">
+				<p>Copyright 2016 Igor Trajanovic</p>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>

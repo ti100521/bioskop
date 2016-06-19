@@ -1,0 +1,51 @@
+.film_row {
+	background-color: #f1f1f1;
+	padding: 0px 10px 0px 10px;
+	border:1px solid #f1f1f1;
+}
+
+table {
+	padding: 0px;
+	border-collapse: collapse;
+}
+
+.film_row_reklama {
+	background-color: #f1f1f1;
+	padding: 0px 0px 0px 0px;
+	/*border:1px solid black;*/
+	height: 315px;
+}
+
+.film_row_reklama_det {
+	background-color: #f1f1f1;
+	padding: 0px 10px 0px 10px;
+	border:1px solid #f1f1f1;
+	height: 315px;
+}
+
+.film_row a {
+	style: none;
+}
+
+.komentar {
+	width:80%;
+	margin: 10px 10px 10px 10%;
+	padding: 0px 0px 0px 10px;
+	border:1px solid lightgray;
+}
+
+.komentar h4 {
+	padding: 0px 0px 0px 50px;
+}
+
+.komentar p {
+	padding: 0px 0px 0px 10px;
+}
+
+.komentar button{
+	margin:0px;
+}
+
+.RezervacijaForma {
+	display:block;
+}
